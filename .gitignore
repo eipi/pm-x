@@ -12,3 +12,4 @@
 /bin
 ./xtend-gen/**
 .settings
+*.class

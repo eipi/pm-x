@@ -7,7 +7,7 @@ object TestPacemakerApi {
 
   def main(args: Array[String]): Unit = {
     val api: PacemakerAPI = new PacemakerAPI
-    var response = api.createUser()
+    var response = api.createUser("", "", "", "")
     print(response)
 
   }
